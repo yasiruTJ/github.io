@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<title>W3.CSS</title>
+<meta name="viewport" ZoomedImage="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="Gallery.css">
+    <script src="Gallery.js"></script>
+<body>
+
+    <div >  
+            <a href="#popupImage01"><img src="Baseball.jpg"       class='image'></a>
+            <a href="#popupImage02"><img src="Basketball.jpg"     class='image'></a>
+            <a href="#popupImage03"><img src="Football.jpg"       class='image'></a>
+            <a href="#popupImage04"><img src="Cricket.jpg"        class='image'></a>
+            <a href="#popupImage05"><img src="hockey.jpg"         class='image'></a>
+    </div>
+    <br>
+
+    <!-- Displaying imaging inside a pop up -->
+    <div id="popupImage01" class="overlay">
+        <div class="popup">
+            <h2>Baseball</h2>
+            <a class="close" href="#">&times;</a>
+            <div class="ZoomedImage">
+                <img src="Baseball.jpg" id="expandedImg" style="width: 80%;">
+                <p>Baseball is a game played especially in North America by two teams of nine players, in which a player hits a 
+                    ball with a bat and tries to run around four bases on a large field before the other team returns the ball.</p>
+            </div>
+        </div>
+    </div>
+    <div id="popupImage02" class="overlay">
+        <div class="popup">
+            <h2>Basketball</h2>
+            <a class="close" href="#">&times;</a>
+            <div class="ZoomedImage">
+                <img src="basketball.jpg" id="expandedImg" style="width: 80%;">
+                <p>Basketball, game played between two teams of five players each on a rectangular court, usually indoors.
+                     Each team tries to score by tossing the ball through the opponent’s goal, an elevated horizontal hoop 
+                     and net called a basket.</p>
+            </div>
+        </div>
+    </div>
+    <div id="popupImage03" class="overlay">
+        <div class="popup">
+            <h2>Football</h2>
+            <a class="close" href="#">&times;</a>
+            <div class="ZoomedImage">
+                <img src="Football.jpg" id="expandedImg" style="width: 80%;">
+                <p>Football, also called association football or soccer, game in which two teams of 11 players,
+                     using any part of their bodies except their hands and arms, try to maneuver the ball into the opposing team’s goal.
+                     Only the goalkeeper is permitted to handle the ball and may do so only within the penalty area surrounding the goal.
+                      The team that scores more goals wins.</p>
+            </div>
+        </div>
+    </div>
+    <div id="popupImage04" class="overlay">
+        <div class="popup">
+            <h2>Cricket</h2>
+            <a class="close" href="#">&times;</a>
+            <div class="ZoomedImage">
+                <img src="Cricket.jpg" id="expandedImg" style="width: 80%;">
+                <p>Cricket involves two teams with 11 players on each side. The captain who wins the toss decides whether his team bats or
+                     bowls first. If they bat first , their aim is to score a lot of runs and make sure the other team does not reach that score</p>
+            </div>
+        </div>
+    </div>
+    <div id="popupImage05" class="overlay">
+        <div class="popup">
+            <h2>hockey</h2>
+            <a class="close" href="#">&times;</a>
+            <div class="ZoomedImage">
+                <img src="hockey.jpg" id="expandedImg" style="width: 80%;">
+                <p>Field hockey, also called hockey, outdoor game played by two opposing teams of 11 players each who use sticks curved at the striking end to hit a small, 
+                    hard ball into their opponent’s goal. It is called field hockey to distinguish it from the similar game played on ice</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
